@@ -40,7 +40,7 @@ const IMAGES = {
         'https://media.base44.com/images/public/6a01e2113636a738b84a5337/2392917b5_generated_52934690.png',
     ],
     cta: 'https://media.base44.com/images/public/6a01e2113636a738b84a5337/2d25d2fbe_generated_caaee477.png',
-    founder: '/public/profile.jpeg',
+    founder: '/profile.jpeg',
 };
 
 export default function Home() {

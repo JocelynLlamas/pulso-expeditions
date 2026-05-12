@@ -33,7 +33,7 @@ export default function Navbar() {
                 <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
                     <a href="#hero" className="flex items-center gap-3">
                         <img
-                            src="/public/pulso-logo.png"
+                            src="/pulso-logo.png"
                             alt="PULSO Expeditions Logo"
                             className="h-10 w-10 rounded-full object-cover"
                         />
