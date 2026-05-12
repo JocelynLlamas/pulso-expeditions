@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
+import pulsoLogo from '../../assets/pulso-logo.png';
 
 const navLinks = [
     { label: 'Inicio', href: '#hero' },
@@ -33,7 +34,7 @@ export default function Navbar() {
                 <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
                     <a href="#hero" className="flex items-center gap-3">
                         <img
-                            src="/pulso-logo.png"
+                            src={pulsoLogo}
                             alt="PULSO Expeditions Logo"
                             className="h-10 w-10 rounded-full object-cover"
                         />
